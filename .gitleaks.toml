@@ -1,0 +1,12 @@
+title = "DevOps Exploration Gitleaks Config"
+
+[extend]
+useDefault = true
+
+[[allowlists]]
+description = "Ignore cache directories"
+paths = [
+  '''\.cache/.*''',
+  '''node_modules/.*''',
+  '''\.git/.*''',
+]
